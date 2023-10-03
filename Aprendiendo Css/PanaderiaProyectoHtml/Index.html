@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pagina de una Panaderia">
+    <meta name="author" content="Daurin Gonzalez">
+    <meta name="keywords" content="Panaderia, masitas, Pan">
+    <link rel="shortcut icon" href="../PanaderiaProyectoHtml/img/hogar.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/estilos.css">
+    <title>PANADERIA DAURIN</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="../PanaderiaProyectoHtml/img/logo.png" height="auto" width="250px" alt="Logo de la Panaderia">
+
+        <section>
+            <nav>
+                <ul>
+                    <li> <a href="#SN">Sobre Nosotros</a> </li>
+                    <li> <a href="#DF">Diferenciales</a> </li>
+                    <li> <a href="#PD">Productos</a> </li>
+                    <li> <a href="#CT">Contactanos</a> </li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+
+    <main>
+        <section>
+            <h1 id="SN">SOBRE NOSOTROS</h1>
+            <img src="../PanaderiaProyectoHtml/img/sobreNosotros/sobreNosotros.jpg" height="auto" width="800px"
+                alt="imagen sobre Nosotros">
+            <p>Masitas es una panadería artesanal que se enorgullece de ofrecer deliciosos productos horneados frescos
+                todos los días. Nuestros panaderos expertos utilizan solo los ingredientes más frescos y de alta calidad
+                para crear una variedad de panes, pasteles y otros productos horneados que son perfectos para cualquier
+                ocasión. Ya sea que esté buscando un desayuno rápido en el camino o un pastel especial para una
+                celebración, Masitas tiene algo para todos. ¡Ven y prueba nuestros deliciosos productos horneados hoy
+                mismo!
+            </p>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="DF">DIFERENCIALES</h2>
+            <ol>
+                <li> <strong>Calidad de los ingredientes:</strong>En Masitas, utilizamos solo los ingredientes más
+                    frescos y de alta calidad en todos nuestros productos horneados. Esto asegura que cada bocado sea
+                    delicioso y satisfactorio.</li>
+                <li> <strong>Variedad de productos: </strong>Ofrecemos una amplia variedad de panes, pasteles y otros
+                    productos horneados para satisfacer todos los gustos y necesidades. Ya sea que esté buscando un pan
+                    integral saludable o
+                    un pastel indulgente, lo tenemos cubierto.
+                </li>
+                <li> <strong>Atención al cliente:</strong> En Masitas, nos enorgullece brindar un excelente servicio al
+                    cliente. Nuestro amable personal está siempre dispuesto a ayudarlo a encontrar el producto perfecto
+                    y responder
+                    cualquier pregunta que pueda tener.
+                </li>
+            </ol>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="PD">PRODUCTOS</h2>
+
+            <div>
+                <h3>Baguettes</h3>
+                <figure>
+                    <img src="../PanaderiaProyectoHtml/img/productos/baguettes.jpg" alt="baguettes">
+                    <figcaption>Baguettes</figcaption>
+                </figure>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Sacramento</h3>
+                    <figure>
+                        <img src="../PanaderiaProyectoHtml/img/productos/sacramentos.jpg" alt="Sacramento">
+                        <figcaption>Sacramento</figcaption>
+                    </figure>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h3>Churros</h3>
+                    <figure>
+                        <img src="../PanaderiaProyectoHtml/img/productos/churros.jpg" alt="Churros">
+                        <figcaption>Churros</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section>
+            <h2 id="CT">FORMULARIO DE CONTACTO</h2>
+            <form>
+                <p><label for="NB">
+                        Nombre: <input type="text" name="nombre" id="NB" placeholder="Nombre" maxlength=" 20">
+                    </label></p>
+
+                <p> <label for="AP">
+                        Apellido: <input type="text" name="Apellido" id="AP" placeholder="Apellido" maxlength=" 20">
+                    </label></p>
+
+                <p><label for="NT">
+                        Numero de Telefono <input type="text" name="Numero" id="NT" placeholder="Telefono"
+                            maxlength="15">
+                    </label></p>
+
+                <p>
+                    <label for="GM">
+                        Gmail <input type="email" name="gmail" id="GM" placeholder="Gmail" maxlength="25">
+                    </label>
+                </p>
+
+                <p>
+                <p>Escribe tu Consulta</p>
+                <label for="TXA">
+                    <textarea name="textarea" id="TXA" cols="30" rows="10" maxlength="50"></textarea>
+                </label>
+                </p>
+
+                <p>
+                    <label for="urgencia">
+                        <span>Tipo de Urgencia:</span>
+                    </label>
+                    <select id="urgencia" name="ur">
+                        <option value="Basica">Basica</option>
+                        <option value="Media">Media</option>
+                        <option value="Urgente">Urgente</option>
+                    </select>
+                </p>
+
+                <p>
+
+                <table>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>Email</th>
+                    </tr>
+
+                    <!--colspan es para combinar columnas-->
+                    <!--rowspan es para combinar Filas-->
+
+                    <tr>
+                        <td>Juan</td>
+                        <td>Gonzalez</td>
+                        <td>email@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>Gonzalez</td>
+                        <td>email@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Juan</td>
+                        <td>Gonzalez</td>
+                        <td>email@gmail.com</td>
+                    </tr>
+                </table>
+
+
+
+                </p>
+
+                <p>
+                    <button type="reset">Limpiar FORMULARIO</button>
+                    <button type="submit">Enviar Datos</button>
+                </p>
+
+            </form>
+            <hr>
+        </section>
+
+    </main>
+
+    <!--NO LLEVA ASIDE-->
+    <aside></aside>
+
+    <footer>
+        &copf;Todos los Derechos Reservados
+    </footer>
+
+</body>
+
+</html>

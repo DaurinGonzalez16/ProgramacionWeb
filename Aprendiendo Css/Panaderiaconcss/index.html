@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <input type="submit" value="">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/estructuragrid.css">
+    <link rel="stylesheet" href="styles/estilo.css">
+    <link rel="shortcut icon" href="img/hogar.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/transformaciones.css">
+    <a href=""></a>
+    <title>DAURIN PANADERIA</title>
+</head>
+
+<body class="grid_container">
+
+    <header class="Header">
+        <img class="logo" src="img/logo.png" alt="Logo de la Panaderia">
+
+        <section>
+            <nav>
+                <ul class="ul_nav">
+                    <li class="li_nav"> <a class="a_nav" href="#SN">SOBRE NOSOTROS</a> </li>
+                    <li class="li_nav"> <a class="a_nav href=" #DF">DIFERENCIALES</a> </li>
+                    <li class="li_nav"> <a class="a_nav href=" #PD">PRODUCTOS</a> </li>
+                    <li class="li_nav"> <a class="a_nav href=" #CT">CONTACTO</a> </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main class="Main">
+        <h1 id="SN">PANADERIA MASITAS</h1>
+        <section class="section1">
+            <article class="article_main">
+                <h2 class="h2_main">DESCRIPCION</h2>
+                <p class="parrafo_main">
+                    Masitas es una panadería artesanal que se enorgullece de ofrecer deliciosos productos horneados
+                    frescos
+                    todos los días. Nuestros panaderos expertos utilizan solo los ingredientes más frescos y de alta
+                    calidad
+                    para crear una variedad de panes, pasteles y otros productos horneados que son perfectos para
+                    cualquier
+                    ocasión. Ya sea que esté buscando un desayuno rápido en el camino o un pastel especial para una
+                    celebración,
+                    Masitas tiene algo para todos. ¡Ven y prueba nuestros deliciosos productos horneados hoy mismo!
+                </p>
+            </article>
+            <div class="div_main"> <img class="img_sobrenosotros" src="img/sobreNosotros/sobreNosotros.jpg"
+                    height="auto" width="800px" alt="imagen sobre Nosotros"></div>
+        </section>
+
+        <section class="section2_diferenciales">
+            <h2 id="DF">DIFERENCIALES</h2>
+            <ol class="ol_diferenciales">
+
+                <div class="div_d_1">
+                    <li class="li_section2"> <strong>Calidad de los ingredientes:</strong>En Masitas, utilizamos solo
+                        los ingredientes más
+                        frescos y de alta calidad en todos nuestros productos horneados. Esto asegura que cada bocado
+                        sea
+                        delicioso y satisfactorio.</li>
+                </div>
+
+                <div class="div_d_2">
+                    <li> <strong>Variedad de productos: </strong>Ofrecemos una amplia variedad de panes, pasteles y
+                        otros
+                        productos horneados para satisfacer todos los gustos y necesidades. Ya sea que esté buscando un
+                        pan
+                        integral saludable o
+                        un pastel indulgente, lo tenemos cubierto.
+                    </li>
+                </div>
+
+
+                <div class="div_d_3">
+                    <li> <strong>Atención al cliente:</strong> En Masitas, nos enorgullece brindar un excelente servicio
+                        al
+                        cliente. Nuestro amable personal está siempre dispuesto a ayudarlo a encontrar el producto
+                        perfecto
+                        y responder
+                        cualquier pregunta que pueda tener.
+                    </li>
+                </div>
+
+            </ol>
+        </section>
+
+        <section>
+            <h2 id="PD">PRODUCTOS</h2>
+
+            <article class="section3_productos">
+                <div>
+                    <h3>BAGUETTES</h3>
+                    <figure>
+                        <img class="img_producto" src="img/productos/baguettes.jpg" alt="baguettes">
+                        <figcaption>Baguettes</figcaption>
+                    </figure>
+                </div>
+
+
+                <div>
+                    <h3>SACRAMENTOS</h3>
+                    <figure>
+                        <img class="img_producto" src="img/productos/sacramentos.jpg" alt="Sacramento">
+                        <figcaption>Sacramentos</figcaption>
+                    </figure>
+                </div>
+
+
+                <div>
+                    <h3>CHURROS</h3>
+                    <figure>
+                        <img class="img_producto" src="img/productos/churros.jpg" alt="Churros">
+                        <figcaption>Churros</figcaption>
+                    </figure>
+                </div>
+
+            </article>
+        </section>
+        <!-- <hr> -->
+
+        <section class="section4_formularios">
+            <h2 id="CT">FORMULARIO DE CONTACTO</h2>
+
+            <div class="form_div">
+                <form>
+                    <div class="form_text_div">
+                        <p><label for="NB">
+                                <input type="text" name="nombre" id="NB" placeholder="Nombre" maxlength=" 20">
+                            </label></p>
+
+                        <p> <label for="AP">
+                                <input type="text" name="Apellido" id="AP" placeholder="Apellido" maxlength=" 20">
+                            </label></p>
+
+                        <p><label for="NT">
+                                <input type="text" name="Numero" id="NT" placeholder="Telefono" maxlength="15">
+                            </label></p>
+
+                        <p>
+                            <label for="GM">
+                                <input type="email" name="gmail" id="GM" placeholder="Gmail" maxlength="25">
+                            </label>
+                        </p>
+                    </div>
+
+                    <div class="text_area_div">
+                        <p>
+                            <label for="TXA">
+                                <textarea name="textarea" id="TXA" placeholder="Escribe tu Consulta" cols="30" rows="10"
+                                    maxlength="50"></textarea>
+                            </label>
+                        </p>
+                    </div>
+                    <p>
+                        <button type="reset">LIMPIAR FORMULARIO</button>
+                        <button type="submit">ENVIAR DATOS</button>
+                    </p>
+
+                </form>
+            </div>
+
+            <!-- <hr> -->
+        </section>
+    </main>
+    <aside class="Aside">Aside</aside>
+
+
+
+    <footer class="Footer">
+
+        <section class="RedesSociales">
+
+            <h2 class="h2_f">REDES SOCIALES</h2>
+
+            <ul class="ul_f">
+                <li class="facebook">
+                    <a class="link_footer" href="">
+                        <i class="bi bi-facebook"></i>
+                        Facebook
+                    </a>
+                </li>
+
+                <li class="instagram">
+                    <a class="link_footer" href="">
+                        <i class="bi bi-instagram"></i>
+                        Instagram
+                    </a>
+                </li>
+
+                <li class="youtube">
+                    <a class="link_footer" href="">
+                        <i class="bi bi-youtube"></i>
+                        Youtube
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+
+
+
+
+
+        <section class="informacionpersonal">
+
+            <h2 class="h2_f">INFORMACION CONTACTO</h2>
+
+            <ul class="ul_f">
+                <li class="email">
+                    <a class="link_footer" href="">
+                        <i class="bi bi-envelope"></i>
+                        Email
+                    </a>
+                </li>
+
+                <li class="linkedin"><a class="link_footer" href="">
+                        <i class="bi bi-linkedin"></i> Linkedin</a>
+                </li>
+            </ul>
+        </section>
+
+
+
+    </footer>
+
+</body>
+
+</html>

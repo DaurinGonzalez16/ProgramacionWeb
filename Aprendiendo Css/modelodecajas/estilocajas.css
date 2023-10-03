@@ -1,0 +1,25 @@
+main {
+  border: 10px solid green;
+}
+
+.boxmodel1 {
+  border: 10px solid red;
+  padding: 30px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+}
+
+.boxmodel2 {
+  margin: 10px;
+  border: 10px solid black;
+  padding: 15px;
+}
+
+.enlace {
+  background-color: blueviolet;
+  color: aliceblue;
+  padding: 5px;
+  border-radius: 10px;
+}

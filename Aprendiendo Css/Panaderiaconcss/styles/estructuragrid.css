@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  background-color: bisque;
+}
+
+.Header {
+  grid-area: Header;
+  padding: 1%;
+}
+
+.Main {
+  grid-area: Main;
+  padding: 10px;
+}
+
+.Aside {
+  grid-area: Aside;
+}
+
+.Footer {
+  grid-area: Footer;
+}
+
+.grid_container {
+  display: grid;
+  gap: 10px;
+
+  /*AREAS DE MI GRIED*/
+  grid-template-areas:
+    "Header Header Header"
+    "Main Main Aside"
+    "Footer Footer Footer";
+
+  grid-template-columns: 1fr 1fr 300px;
+  grid-template-rows: auto auto auto;
+}
+
+@media (max-width: 600px) {
+  .grid_container {
+    grid-template-areas:
+      "Header"
+      "Main"
+      "Aside"
+      "Footer";
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+  }
+}

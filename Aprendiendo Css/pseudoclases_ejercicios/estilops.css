@@ -1,0 +1,100 @@
+main {
+  width: 70%;
+  height: 600px;
+  border: 1px solid black;
+  position: relative;
+  margin: 10px;
+}
+
+.posicion1 {
+  border: 1px solid black;
+  width: 350px;
+  background-color: blue;
+  position: absolute;
+  margin: 10px;
+  padding: 10px;
+}
+
+.posicion2 {
+  border: 1px solid black;
+  width: 350px;
+  background-color: aquamarine;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+  padding: 10px;
+}
+
+.cabeza {
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+aside {
+  margin: 10px;
+  border: 1px solid black;
+  width: 30%;
+  height: auto;
+  padding: 10px;
+}
+footer {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.contenedor_main_aside {
+  border: 1px solid black;
+  display: flex;
+  margin: 10px;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  background-color: black;
+  border: 2px solid blue;
+  transition: all 0.8s ease-out;
+}
+
+/* .btn:active {
+  background-color: blue;
+  padding: 20px;
+} */
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+a {
+  text-decoration: none; /*SE LE QUITA EL SUBRAYADO*/
+  font-size: 20px;
+  font-weight: bold;
+  transition: 0.3s ease-out;
+}
+
+a:hover {
+  color: brown;
+  box-shadow: 0px 2px 0px 0px black;
+}
+
+.text {
+  transition: padding 0.5s ease-out;
+}
+
+.text:focus {
+  padding: 30px;
+}
+
+.check {
+  transition: all 0.5s ease-in-out;
+}
+
+.check:checked {
+  /* transform: translateX(5px); */
+  /* transform: scale(1.5); */
+  /* transform: rotate(20deg); */
+  /* transform: skewX(30deg); */
+  /* transform: rotate(45deg) scale(1.5); */
+}

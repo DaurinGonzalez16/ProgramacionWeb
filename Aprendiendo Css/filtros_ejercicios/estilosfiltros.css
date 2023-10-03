@@ -1,0 +1,12 @@
+.filtro {
+  /* filter: blur(1px); PONER LA IMAGEN BORROSA */
+  /* filter: brightness(50%);BRILLO DE LA IMAGEN */
+  /* filter: contrast(81%); CONTRASTE DE LA IMAGEN */
+  /* filter: drop-shadow(5px 5px 1px blue);  */
+  /* filter: grayscale(50%); Escala de grises */
+  /* filter: hue-rotate(30deg); rotar 90 grados */
+  /* filter: invert(5%); invertir colores */
+  /* filter: opacity(100%); opacidad de la imagen */
+  /* filter: saturate(15%); Saturacion de la imagen */
+  /* filter: sepia(50%); para dar sepia */
+}

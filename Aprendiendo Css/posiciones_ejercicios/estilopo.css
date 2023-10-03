@@ -1,0 +1,48 @@
+main {
+  width: 70%;
+  height: 600px;
+  border: 1px solid black;
+  position: relative;
+  margin: 10px;
+}
+
+.posicion1 {
+  border: 1px solid black;
+  width: 350px;
+  background-color: blue;
+  position: absolute;
+  margin: 10px;
+}
+
+.posicion2 {
+  border: 1px solid black;
+  width: 350px;
+  background-color: aquamarine;
+  margin: 10px;
+  position: absolute;
+  right: 0;
+}
+
+.cabeza {
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 10px;
+}
+
+aside {
+  margin: 10px;
+  border: 1px solid black;
+  width: 30%;
+  height: auto;
+  padding: 10px;
+}
+footer {
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.contenedor_main_aside {
+  border: 1px solid black;
+  display: flex;
+  margin: 10px;
+}
