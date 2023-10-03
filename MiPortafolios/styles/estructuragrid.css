@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.Header {
+  height: 150px;
+  margin-top: 2%;
+  /* border: 1px solid black; */
+  grid-area: Header;
+  padding: 20px;
+}
+
+.Main {
+  /* border: 1px solid black; */
+  grid-area: Main;
+}
+
+.Footer {
+  margin-top: 25px;
+  background-color: #0b0b0b;
+  grid-area: Footer;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  font-family: "Times New Roman", Times, serif;
+  background-color: #072b45;
+}
+
+.grid_container {
+  display: grid;
+  gap: 10px;
+
+  /*AREAS DE MI GRID*/
+  grid-template-areas:
+    "Header Header Header"
+    "Main Main Main"
+    "Footer Footer Footer";
+
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto;
+}
