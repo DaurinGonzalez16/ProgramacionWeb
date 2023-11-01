@@ -1,0 +1,427 @@
+body {
+  background-color: #072b45;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 2rem;
+}
+
+.navbar-collapse {
+  text-align: left;
+  margin-left: 40%;
+}
+
+.navbar_icon {
+  font-size: 2.3rem;
+  vertical-align: middle;
+  font-variation-settings: "FILL" 0, "wght" 300, "GRAD" 0, "opsz" 40;
+  color: white;
+}
+
+.navbar_Texto {
+  vertical-align: middle;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.navbar_padre {
+  background-color: #0266a2;
+  border-radius: 10px;
+  margin-top: 2%;
+  box-shadow: 0px 5px 5px 3px black;
+  padding: 0vw;
+}
+
+.nav-link {
+  font-family: "Poppins";
+}
+
+/* PRIMERA FILA - BIENVENIDO */
+.row_1 {
+  font-family: "Poppins";
+  margin-top: 7vw;
+  color: black;
+}
+
+.h1_programador,
+.h2_fullstack,
+.span_bienvenido {
+  font-weight: bold;
+}
+
+.h1_programador,
+.h2_fullstack {
+  font-size: 9vw;
+}
+
+.h2_fullstack {
+  line-height: 5vw;
+  color: white;
+}
+
+.h1_programador {
+  color: #0266a2;
+}
+
+.sv_class {
+  width: fit-content;
+  background-color: #0266a2;
+  padding: 1vw;
+  border-radius: 1vw;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+/*BOTONES CONTRATAME - DESCARGAR*/
+.a_items {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.contratame,
+.descargarcv {
+  background-color: #0266a2;
+  border-radius: 4vw;
+  padding: 1vw 4vw;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  text-shadow: 0px 2px 5px black;
+  font-size: 3vw;
+}
+
+.contratame {
+  gap: 1.8vw;
+}
+
+.con_c_d {
+  margin-top: 3.5vw;
+  gap: 3vw;
+}
+
+.descargarcv {
+  background-color: black;
+}
+
+.icon_contratame,
+.icon_descargar {
+  color: white;
+}
+
+.h2_ME {
+  color: #0266a2;
+}
+
+.divisor {
+  margin-top: 6vw;
+  border: 0.3vw solid white;
+}
+
+/*ROW 2*/
+.div_svg_sobremi {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.svg_sobremi {
+  width: 10vw;
+  height: 10vw;
+}
+
+#SOBREMI {
+  margin: 0px;
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+/*parrafo_1*/
+.parrafo_1 {
+  text-align: justify;
+  color: white;
+  padding-top: 3vw;
+}
+
+.svg_s {
+  height: 20vw;
+  width: 20vw;
+}
+
+.h3_main2 {
+  background-color: #0266a2;
+  text-align: center;
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+  margin-top: 2vw;
+  border-radius: 1vw;
+  font-size: 3vw;
+}
+
+.svg_row1 {
+  align-items: center;
+  height: 17vw;
+  width: 17vw;
+  border-radius: 1vw;
+  padding: 2vw;
+}
+
+.row_1_lenguajes {
+  align-items: center;
+  padding: 3vw;
+  display: flex;
+  gap: 3vw;
+  justify-content: center;
+}
+
+.col_1 {
+  width: fit-content;
+  align-items: center;
+  padding: 1.5vw;
+}
+
+.row_2 {
+  align-items: center;
+}
+
+/* 3ER ROW */
+
+.div_enlaces_main3 {
+  display: flex;
+  gap: 2vw;
+  margin-top: 5vw;
+}
+
+.a_main1,
+.a_main2,
+.a_main3,
+.a_main4 {
+  text-decoration: none;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  background-color: rgba(72, 65, 65, 0.491);
+  border-radius: 1vw;
+  padding: 2vw;
+}
+
+.a_main1 {
+  background-color: #0266a2;
+}
+
+#MISPROYECTOS {
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.recientes_main3 {
+  background-color: #0266a2;
+  color: white;
+  padding: 0vw 2vw;
+  border-radius: 1vw;
+  text-shadow: 0vw 2vw 5vw black;
+}
+
+.section_padre_main3 {
+  background-image: url("../img/Main3/Pexels-Photo-by-Markus-Spiske.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 1vw 0vw;
+}
+
+.div_nombre_proyecto {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.img_java1,
+.img_java2,
+.img_java3 {
+  border-radius: 1vw;
+  padding: 1vw;
+  margin-top: 2vw;
+}
+
+.h3_np {
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.link_P {
+  font-family: "Poppins";
+  font-weight: bold;
+  color: white;
+}
+
+/* -------------------MAIN 3---------------------------- */
+#CONTACTO {
+  color: white;
+  font-family: "Poppins";
+  font-weight: bold;
+}
+
+.row_cont_form {
+  align-items: center;
+  gap: 1vw;
+}
+
+.contendor_img img {
+  margin: 5vw 0vw;
+  width: auto;
+  height: auto;
+  border-radius: 2vw;
+  box-shadow: 20px 20px 5px rgba(0, 0, 0, 0.47);
+}
+
+.contenedor_imagen_main_3 {
+  width: fit-content;
+}
+
+.input_name,
+.input_email,
+.input_mensaje {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 5vw;
+}
+
+input {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  width: 70vw;
+  height: fit-content;
+  font-size: 4vw;
+  padding: 3vw;
+  background-color: #393e46;
+  border-radius: 10px;
+  color: white;
+}
+
+textarea {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  width: 70vw;
+  height: fit-content;
+  font-size: 4svw;
+  padding: 3vw;
+  background-color: #393e46;
+  border-radius: 1vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  color: white;
+}
+
+button {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  padding: 2vw;
+  font-size: 5vw;
+  width: max-content;
+  background-color: #00adb5;
+  border-radius: 2vw;
+  text-shadow: 0px 1vw 1vw black;
+  color: white;
+}
+
+.sub_c_i {
+  margin: 4vw 0vw;
+}
+
+/*FOOTER*/
+.section_padreFooter {
+  display: flex;
+  align-items: center;
+  gap: 8vw;
+  width: auto;
+  height: auto;
+  justify-content: center;
+  margin: auto;
+}
+
+.footer_Texto2 {
+  font-size: 4vw;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-item {
+  display: block;
+}
+
+.footer1 {
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.span_social {
+  font-family: "Poppins";
+  font-weight: bold;
+  font-size: 6vw;
+  color: white;
+}
+
+.svg_Footer {
+  width: 8vw;
+  height: 8vw;
+}
+
+/*MEDIAS QUERYES*/
+/* CUANDO ESTE EN 990 O MENOS */
+@media (max-width: 991.3px) {
+  .navbar-collapse {
+    margin-left: 10px;
+  }
+}
+
+/* CUANDO ESTE EN 1024 O MAS */
+@media (min-width: 1024px) {
+  .navbar_Texto {
+    font-size: 1.5rem;
+  }
+}
+
+/*SAMSUNG*/
+@media (min-width: 279px) and (max-width: 353px) {
+  #MISPROYECTOS {
+    width: max-content;
+    font-size: 5vw;
+    margin-left: 1.5vw;
+  }
+
+  .a_main1,
+  .a_main2,
+  .a_main3,
+  .a_main4 {
+    font-size: 4vw;
+    margin-left: 2vw;
+  }
+
+  .input_name,
+  .input_email,
+  .input_mensaje {
+    font-size: 4vw;
+  }
+
+  .div_nombre_proyecto {
+    font-size: 4vw;
+  }
+  .h3_np {
+    font-size: 5vw;
+  }
+}

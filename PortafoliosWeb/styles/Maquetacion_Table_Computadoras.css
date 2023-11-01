@@ -1,0 +1,276 @@
+/*TRABAJAR CON ESTO MAÑANA*/
+/* CUANDO ESTE EN 767 O MAS */
+@media (min-width: 767px) {
+  /*MENSAJE SUCCES*/
+  .row_1 {
+    margin-top: 1vw;
+    width: auto;
+  }
+
+  /* COLUMNA 1 */
+  .col_1_main1 {
+    padding: 2vw;
+    margin-top: 0px;
+    width: fit-content;
+  }
+
+  .span_bienvenido {
+    width: fit-content;
+    font-size: 1vw;
+  }
+
+  .sv_class {
+    gap: 0.5vw;
+    padding: 1vw 2vw;
+  }
+
+  .con_c_d {
+    gap: 5vw;
+  }
+
+  .contratame,
+  .descargarcv {
+    padding: 1vw 3vw;
+    gap: 0.5vw;
+    font-size: 2vw;
+  }
+
+  .icon_descargar,
+  .icon_contratame {
+    font-size: 2.5vw;
+  }
+
+  /*LINEAS HR*/
+  .hr_1 {
+    border: 0.3vw solid white;
+    margin-left: 2.5vw;
+    margin-top: -1vw;
+    width: 12vw;
+  }
+
+  .hr_2 {
+    border: 0.3vw solid white;
+    margin-top: 1vw;
+    margin-left: 5.3vw;
+    width: 6vw;
+  }
+
+  .h2_fullstack {
+    line-height: 5vw;
+  }
+
+  .divisor {
+    margin-top: 1vw;
+  }
+
+  /* ----------------------------------------------------- */
+  /* MAIN SOBRE MI */
+
+  .div_svg_sobremi {
+    margin-top: 31w;
+  }
+
+  .svg_sobremi {
+    width: 5vw;
+    height: 5vw;
+  }
+
+  #SOBREMI {
+    font-size: 3.5vw;
+  }
+
+  .parrafo_1 {
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 2vw;
+    padding-top: 1.5vw;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
+  }
+
+  .parrafo_2 {
+    padding-top: 2vw;
+    font-size: 1.3vw;
+    line-height: 2.5vw;
+    font-size: 1.5vw;
+  }
+
+  .svg_row1 {
+    height: 7vw;
+    width: 7vw;
+    padding: 0vw;
+  }
+
+  .h3_main2 {
+    font-size: 1.5vw;
+  }
+
+  .row_1_lenguajes {
+    padding: 0vw;
+    gap: 4vw;
+    margin-top: 0vw;
+    justify-content: center;
+  }
+
+  .col_1 {
+    margin: 0vw;
+    padding: 0vw;
+  }
+
+  .row_2 {
+    margin: 1vw;
+  }
+
+  /* ----------------------------------------- */
+  /* MAIN MIS PROYECTOS */
+  .section_padre_main3 {
+    padding: 5vw;
+  }
+
+  #MISPROYECTOS {
+    width: max-content;
+    font-size: 3.5vw;
+  }
+
+  .a_main1,
+  .a_main2,
+  .a_main3,
+  .a_main4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.3vw;
+    border-radius: 1vw;
+    padding: 1vw;
+    width: fit-content;
+    text-align: center;
+    margin-top: -2vw;
+  }
+
+  .arcticle1_main3 {
+    display: flex;
+    align-items: center;
+    gap: 1.5vw;
+    justify-content: center;
+  }
+
+  .h3_np,
+  .link_P {
+    font-size: 1.5vw;
+  }
+
+  .h3_np {
+    padding-top: 1.5vw;
+  }
+
+  .img_java1,
+  .img_java2,
+  .img_java3 {
+    width: 25vw;
+    height: 25vw;
+    background-color: rgba(72, 65, 65, 0.491);
+    background-repeat: no-repeat;
+    border-radius: 1vw;
+  }
+
+  /* ------------------------------------------------------------------------ */
+  /* MAIN 4 */
+
+  #CONTACTO {
+    font-size: 3vw;
+  }
+
+  .contendor_img {
+    margin-top: -2vw;
+  }
+
+  .contendor_img img {
+    width: 25vw;
+    height: auto;
+  }
+
+  .input_name,
+  .input_email,
+  .input_mensaje {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 1.5vw;
+  }
+
+  input {
+    width: 16vw;
+    height: 2vw;
+    font-size: 1vw;
+    padding: 1.5vw;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    border-style: groove;
+  }
+
+  .contenedor_input {
+    display: flex;
+    align-items: center;
+    gap: 5vw;
+  }
+
+  textarea {
+    width: 38vw;
+    height: min-content;
+    font-size: 1vw;
+    padding: 1vw;
+    font-weight: bold;
+    resize: none;
+  }
+
+  .row_cont_form {
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: min-content;
+  }
+
+  .col_img {
+    margin: 0vw;
+    padding: 0vw;
+  }
+
+  .sub_c_i {
+    margin: 1vw;
+  }
+
+  button {
+    padding: 1vw;
+    font-size: 1.2vw;
+    border-radius: 1vw;
+    text-shadow: 0px 1px 5px black;
+    display: flex;
+    gap: 0.5vw;
+    border-style: ridge;
+  }
+
+  .svg_boton {
+    height: 1.6vw;
+    width: 1.6vw;
+  }
+
+  .span_social {
+    font-size: 2vw;
+  }
+
+  .svg_Footer {
+    width: 3vw;
+    height: 3vw;
+  }
+}
+
+/*TABLET*/
+@media (min-width: 1023px) and (max-width: 1280px) {
+  .navbar_icon {
+    font-size: 2vw;
+  }
+
+  .navbar_Texto {
+    font-size: 1.5vw;
+  }
+}
